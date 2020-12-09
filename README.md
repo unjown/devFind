@@ -8,3 +8,7 @@ devFind is written in HTML,CSS,JS intentionally beacuse these can be runned in t
 ## GOAL
 Let early devs learn more with this code
 let early devs find intern easier
+
+## COMMUNITY
+Join the discuddion with Git discussion
+Join our [Discord](https://discord.com/channels/785312776435662909/785312776901885973)
