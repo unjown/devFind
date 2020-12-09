@@ -12,3 +12,6 @@ let early devs find intern easier
 ## COMMUNITY
 Join the discuddion with Git discussion
 Join our [Discord](https://discord.com/channels/785312776435662909/785312776901885973)
+
+## Web
+[devFind](https://unjown.github.io/devFind/devFind/src/html/index.html)
