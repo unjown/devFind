@@ -13,5 +13,11 @@ let early devs find intern easier
 Join the discuddion with Git discussion
 Join our [Discord](https://discord.com/channels/785312776435662909/785312776901885973)
 
+## EMPTY SLOTS FOR TEAM
+Back-end
+Back-end assistant
+Data dev/scientist (DB)
+Front-end assistant
+
 ## Web
 [devFind](https://unjown.github.io/devFind/devFind/src/html/index.html)
