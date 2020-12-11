@@ -1,31 +1,3 @@
-.appBar {
-    width: 100%;
-    overflow: auto;
-    background-color: black;
-}
-.appBar ul {
-    margin: 0px;
-    padding: 0px;
-    list-style: none;
-}
-.appBar ul li {
-    float: left;
-}
-.appBar ul li a {
-    width: 120px;
-    display: block;
-    padding: 15px;
-    color: #fff;
-    text-decoration: none;
-    text-transform: uppercase;
-    font-family: sans-serif monospace;
-    font-size: 20px;
-    text-align: center;
-}
-.appBar ul li a:hover {
-    background-color: orange;
-    
-}
 .content {
 
 }
@@ -142,7 +114,7 @@
 }
 
 .Search-content {
-  height: 500px;
+  height: 490px;
   display: none;
   position: absolute;
   background-color: #f6f6f6;
