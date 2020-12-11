@@ -1,12 +1,30 @@
 .appBar {
-    line-height: 1;
-    position: sticky;
-    background-color: blue;
-    border: 2px solid orange;
-    padding: 5px;
-    margin: 0px;
-    height: 38px;
     width: 100%;
+    overflow: auto;
+    background-color: black;
+}
+.appBar ul {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+.appBar ul li {
+    float: left;
+}
+.appBar ul li a {
+    width: 120px;
+    display: block;
+    padding: 15px;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: sans-serif monospace;
+    font-size: 20px;
+    text-align: center;
+}
+.appBar ul li a:hover {
+    background-color: orange;
+    
 }
 .content {
 
@@ -64,7 +82,8 @@
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: #f1f1f1;
+  background: rgba(255,165,0, 0.7);    background: linear-gradient(to bottom right, #ffffff 0%, #ff9933 100%);
+  border-radius: 25px;    
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
@@ -84,16 +103,24 @@
 
 /* SEARCH */
 .Searchbtn {
-  background-color: #4CAF50;
+  background-color: #fcfcfc;    
   color: white;
   padding: 16px;
   font-size: 16px;
   border: none;
   cursor: pointer;
+  width: 280px;
+  padding: 2px;
+  margin: auto;    
+  border: 2px solid orange;
+  height: 30px;
+  align-self: center;
+  border-radius: 25px;
+  color: rgba(0, 0, 0, 0.3);
 }
 
 .Searchbtn:hover, .Searchbtn:focus {
-  background-color: #3e8e41;
+  background-color: #ebebeb;
 }
 
 #myInput {
@@ -115,6 +142,7 @@
 }
 
 .Search-content {
+  height: 500px;
   display: none;
   position: absolute;
   background-color: #f6f6f6;
@@ -122,6 +150,7 @@
   overflow: auto;
   border: 1px solid #ddd;
   z-index: 1;
+  overflow: scroll;
 }
 
 .Search-content a {
