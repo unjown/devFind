@@ -1,16 +1,17 @@
 // LOADING
-document.onreadystatechange = function () {
-  var state = document.readyState
-  if (state == 'interactive') {
-       document.getElementById('contents').style.visibility="hidden";
-  } else if (state == 'complete') {
-      setTimeout(function(){
-         document.getElementById('interactive');
-         document.getElementById('load').style.visibility="hidden";
-         document.getElementById('contents').style.visibility="visible";
-      },1000);
-  }
-}
+document.onreadystatechange = function() { 
+  if (document.readyState !== "complete") { 
+      document.querySelector( 
+        "#main_Body").style.visibility = "hidden"; 
+      document.querySelector( 
+        "#load").style.visibility = "visible"; 
+  } else { 
+      document.querySelector( 
+        "#load").style.display = "none"; 
+      document.querySelector( 
+        "#main_Body").style.visibility = "visible"; 
+  } 
+};
 
 // SEARCH
 function SearchFunction() {
