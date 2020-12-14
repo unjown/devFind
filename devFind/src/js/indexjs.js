@@ -1,17 +1,16 @@
 // LOADING
-document.onreadystatechange = function() { 
-  if (document.readyState !== "complete") { 
-      document.querySelector( 
-        "#main_Body").style.visibility = "hidden"; 
-      document.querySelector( 
-        "#load").style.visibility = "visible"; 
-  } else { 
-      document.querySelector( 
-        "#load").style.display = "none"; 
-      document.querySelector( 
-        "#main_Body").style.visibility = "visible"; 
-  } 
-};
+document.body.setAttribute("class", "noscroll");
+
+document.getElementById("overlay").style.display = "block";
+document.getElementById("spinner").style.display = "block";
+
+
+window.onload = function() {
+  document.getElementById("spinner").style.display = "none";
+  document.getElementById("overlay").style.display = "none";
+
+  document.body.className = document.body.className.replace(/\bnoscroll\b/,'');
+}
 
 // SEARCH
 function SearchFunction() {
